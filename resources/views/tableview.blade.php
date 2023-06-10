@@ -3,25 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Demo to Import Excel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>No</th>
-                <th>Nama</th>
-                <th>Harga</th>
+                <th>Nama Member</th>
+                <th>Grup</th>
+                <th>total superchat IDR</th>
+                <th>Total subskreber</th>
+                <th>Total view</th>
+                <th>avg livestream video view</th>
+                <th>like rate %</th>
+                <th>comment rate%</th>
+                <th>total live stream</th>
             </tr>
         </thead>
         <tbody>
             @foreach($datas as $data)
-            <tr>
+              @if ($loop->index == 0)
+              @else
+              <tr>
                 <td>{{ $data[0] }}</td>
                 <td>{{ $data[1] }}</td>
                 <td>{{ $data[2] }}</td>
-            </tr>
+                <td>{{ $data[3] }}</td>
+                <td>{{ $data[4] }}</td>
+                <td>{{ $data[5] }}</td>
+                <td>{{ $data[6] }}</td>
+                <td>{{ $data[7] }}</td>
+                <td>{{ $data[8] }}</td>
+              </tr>
+              @endif
             @endforeach
         </tbody>
     </table>
