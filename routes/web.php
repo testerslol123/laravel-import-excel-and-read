@@ -22,3 +22,7 @@ Route::get('/', function () {
 
 
 Route::post('/', [DataController::class, 'processData']);
+
+Route::get('/superchat', function () {
+    return view('superchat');
+});

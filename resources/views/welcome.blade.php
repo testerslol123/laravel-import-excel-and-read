@@ -8,6 +8,7 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
+    <a href="/superchat">Ke Perhitungan Superchat</a>
     <form action="{{ url('/') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="mb-3">
