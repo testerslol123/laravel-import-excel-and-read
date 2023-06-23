@@ -17,12 +17,13 @@ use App\Http\Controllers\DataController;
 */
 
 Route::get('/', function () {
+    return view('superchat');
+});
+
+
+
+Route::get('/superchat', function () {
     return view('welcome');
 });
 
-
-Route::post('/', [DataController::class, 'processData']);
-
-Route::get('/superchat', function () {
-    return view('superchat');
-});
+Route::post('/superchat', [DataController::class, 'processData']);
