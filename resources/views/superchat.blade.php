@@ -7,8 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
-    <a href="/superchat">Ke Input File</a>
-    <a href="/display-data">Ke Tunjukkan Data</a>
+    <div>
+      <a href="/superchat">Ke Input File</a>
+    </div>
+    <div>
+      <a href="/display-data">Ke Tunjukkan Data</a>
+    </div>
     <h2>Model</h2>
     <h3>
       Superchat = 3.062 x10<sup>8</sup> + totalview x 5.750 x 10<sup>1</sup> + ccv x 5.246 x 10<sup>5</sup>
