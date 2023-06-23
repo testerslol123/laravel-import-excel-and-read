@@ -8,6 +8,7 @@
   </head>
   <body>
     <a href="/superchat">Ke Input File</a>
+    <a href="/display-data">Ke Tunjukkan Data</a>
     <h2>Model</h2>
     <h3>
       Superchat = 3.062 x10<sup>8</sup> + totalview x 5.750 x 10<sup>1</sup> + ccv x 5.246 x 10<sup>5</sup>

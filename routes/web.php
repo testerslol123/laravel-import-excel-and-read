@@ -27,3 +27,5 @@ Route::get('/superchat', function () {
 });
 
 Route::post('/superchat', [DataController::class, 'processData']);
+
+Route::get('display-data', [DataController::class, 'autoProcessData']);
