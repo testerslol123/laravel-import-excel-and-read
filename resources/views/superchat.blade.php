@@ -8,7 +8,7 @@
   </head>
   <body class="text-center">
     <div>
-      <a href="/superchat">Ke Input File</a>
+      {{-- <a href="/superchat">Ke Input File</a> --}}
     </div>
     <div>
       <a href="/display-data">Ke Tunjukkan Data</a>
