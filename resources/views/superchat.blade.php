@@ -16,10 +16,10 @@
     <h2>Model</h2>
     <p>Model berikut digunakan untuk memprediksi total penghasilan superchat member hololive production</p>
     <p>Cara menggunakan :</p>
-    <ul class="list-group">
-      <li class="list-group-item">masukkan angka total view pada kolom total view</li>
-      <li class="list-group-item">masukkan angka ccv pada kolom ccv</li>
-      <li class="list-group-item">prediksi total superchat akan muncul</li>
+    <ul class="list-group mx-auto" style="width: 50%;">
+      <li class="list-group-item">1. Masukkan angka total view pada kolom total view</li>
+      <li class="list-group-item">2. Masukkan angka ccv pada kolom ccv</li>
+      <li class="list-group-item">3. Prediksi total superchat akan muncul</li>
     </ul>
     <h3 class="mt-3 mb-3">
       Superchat = 3.062 x10<sup>8</sup> + totalview x 5.750 x 10<sup>1</sup> + ccv x 5.246 x 10<sup>5</sup>
@@ -35,7 +35,7 @@
       <p>Superchat = <input disabled type='number' name="hasil" id="hasilperkalian" /></p>
       <p>Hasil prediksi total superchat dari perhitungan model diatas adalah Rp (hasil superchat)</p>
       <p>Keterangan:</p>
-      <ul class="list-group">
+      <ul class="list-group mx-auto" style="width: 50%">
         <li class="list-group-item">Superchat: hasil prediksi pendapatan superchat dalam satuan rupiah</li>
         <li class="list-group-item">Total View: total orang yang menonton vidio live Vtuber dalam satuan angka</li>
         <li class="list-group-item">CCV: Rata-rata penonton bersamaan yang menonton siaran langsung (live streaming) dari saluran ini.</li>
