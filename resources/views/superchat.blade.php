@@ -26,8 +26,8 @@
     </h3>
     <div>
       <p>Superchat = 3.062 x10<sup>8</sup> +
-        <input type='number' name='totalview' id="totalview" min="0" oninput="validity.valid||(value='');" onChange="hitungHasilSuperchat()" placeholder="masukkan total view" /> x 5.750 x 10<sup>1</sup> +
-        <input type='number' name='ccv' id="ccv" min="0" oninput="validity.valid||(value='');" onChange="hitungHasilSuperchat()" placeholder="masukkan ccv" /> x 5.246 x 10<sup>5</sup>
+        <input type='number' name='totalview' id="totalview" min="0" oninput="validity.valid||(value='0');" onkeyup="hitungHasilSuperchat()" placeholder="masukkan total view" /> x 5.750 x 10<sup>1</sup> +
+        <input type='number' name='ccv' id="ccv" min="0" oninput="validity.valid||(value='0');" onkeyup="hitungHasilSuperchat()" placeholder="masukkan ccv" /> x 5.246 x 10<sup>5</sup>
       </p>
     </div>
     <div>
