@@ -10,15 +10,15 @@
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Nama Member</th>
-                <th>Grup</th>
-                <th>total superchat IDR</th>
-                <th>Total subskreber</th>
-                <th>Total view</th>
-                <th>avg livestream video view</th>
-                <th>like rate %</th>
-                <th>comment rate%</th>
-                <th>total live stream</th>
+              <th>Nama Member</th>
+              <th>Grup</th>
+              <th>Total Superchat IDR</th>
+              <th>Total Subscriber</th>
+              <th>Total Penonton</th>
+              <th>Rata-rata Penonton Livestream</th>
+              <th>Like Rate (%)</th>
+              <th>Comment Rate (%)</th>
+              <th>Total Jam Livestream</th>
             </tr>
         </thead>
         <tbody>
